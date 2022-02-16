@@ -1,9 +1,9 @@
 .page {
-  font-family: "GothamPro", Arial, sans-serif;
+  font-family: "GothamPro", "Arial", sans-serif;
   font-style: normal;
   font-weight: 400;
-  background-color: #E5E5E5;
-  color: #0D0D0D;
+  background-color: $page-bg;
+  color: $basic-dark;
 }
 
 .page__container {
