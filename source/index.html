@@ -24,7 +24,7 @@
       <form action="#">
         <div class="modal__input-wrapper">
           <label for="email">Для получения бонуса введите email</label>
-          <input type="text" id="email" name="email" placeholder="Ваш e-mail" required>
+          <input type="text" id="email" name="email" placeholder="Ваш e-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
         </div>
         <button class="modal__submit" type="submit">Скачать пошаговый план</button>
       </form>
